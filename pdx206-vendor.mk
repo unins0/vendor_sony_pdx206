@@ -683,10 +683,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_imx557.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_imx557.bin \
     vendor/sony/pdx206/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin
 
-PRODUCT_PACKAGES +=
+PRODUCT_PACKAGES += \
     cnss-daemon
 
-PRODUCT_PACKAGES +=
-    vendor_firmware_qca6390_bdwlan_e16
-    vendor_firmware_qca6390_bdwlan_e17
+PRODUCT_PACKAGES += \
+    vendor_firmware_qca6390_bdwlan_e16 \
+    vendor_firmware_qca6390_bdwlan_e17 \
     vendor_firmware_qca6390_bdwlan_elf
