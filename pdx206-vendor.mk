@@ -611,16 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/camera/streaming.dat:$(TARGET_COPY_OUT_VENDOR)/camera/streaming.dat \
     vendor/sony/pdx206/proprietary/vendor/camera/supported.dat:$(TARGET_COPY_OUT_VENDOR)/camera/supported.dat \
     vendor/sony/pdx206/proprietary/vendor/camera/version.dat:$(TARGET_COPY_OUT_VENDOR)/camera/version.dat \
-    vendor/sony/pdx206/proprietary/vendor/etc/3da/com.sony.360ra.hrtf13.standard.hki:$(TARGET_COPY_OUT_VENDOR)/etc/3da/com.sony.360ra.hrtf13.standard.hki \
-    vendor/sony/pdx206/proprietary/vendor/etc/3da/sforce_coef:$(TARGET_COPY_OUT_VENDOR)/etc/3da/sforce_coef \
-    vendor/sony/pdx206/proprietary/vendor/etc/3da/universal32_v2_e.hki2:$(TARGET_COPY_OUT_VENDOR)/etc/3da/universal32_v2_e.hki2 \
-    vendor/sony/pdx206/proprietary/vendor/etc/3da/unknown.ba:$(TARGET_COPY_OUT_VENDOR)/etc/3da/unknown.ba \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaAAC128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC128.bin \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaAAC256.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC256.bin \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaAAC64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC64.bin \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaMP3_128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_128.bin \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaMP3_160.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_160.bin \
-    vendor/sony/pdx206/proprietary/vendor/etc/DrangeparaMP3_192.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_192.bin \
     vendor/sony/pdx206/proprietary/vendor/etc/acdbdata/Sony_edo_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Handset_cal.acdb \
     vendor/sony/pdx206/proprietary/vendor/etc/acdbdata/Sony_edo_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Headset_cal.acdb \
     vendor/sony/pdx206/proprietary/vendor/etc/acdbdata/Sony_edo_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Speaker_cal.acdb \
@@ -693,10 +683,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx206/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_imx557.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_imx557.bin \
     vendor/sony/pdx206/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin
 
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES +=
     cnss-daemon
 
-PRODUCT_PACKAGES += \
-    vendor_firmware_qca6390_bdwlan_e16 \
-    vendor_firmware_qca6390_bdwlan_e17 \
+PRODUCT_PACKAGES +=
+    vendor_firmware_qca6390_bdwlan_e16
+    vendor_firmware_qca6390_bdwlan_e17
     vendor_firmware_qca6390_bdwlan_elf
